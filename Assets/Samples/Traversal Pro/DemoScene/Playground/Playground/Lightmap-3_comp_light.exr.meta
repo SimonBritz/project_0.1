@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 88693968f50ea484187b63e3f8f827fe
+AssetOrigin:
+  serializedVersion: 1
+  productId: 292943
+  packageName: 'Traversal Pro: Physics-based Character Controller'
+  packageVersion: 0.1.12
+  assetPath: Packages/com.stubblefield.traversal-pro/Samples~/Playground/Playground/Lightmap-3_comp_light.exr
+  uploadId: 739951
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -154,10 +161,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 292943
-  packageName: 'Traversal Pro: Physics-based Character Controller'
-  packageVersion: 0.1.12
-  assetPath: Packages/com.stubblefield.traversal-pro/Samples~/Playground/Playground/Lightmap-3_comp_light.exr
-  uploadId: 739951

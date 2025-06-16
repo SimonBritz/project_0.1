@@ -4402,7 +4402,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   climbableLayers:
-    serializedVersion: 2
     m_Bits: 64
   climbCheckDistance: 1.1
   minClimbHeight: 1.2
@@ -4410,6 +4409,10 @@ MonoBehaviour:
   climbKey: 101
   dropKey: 120
   drawDebugRay: 1
+  rb: {fileID: 0}
+  isClimbing: 0
+  climbNormal: {x: 0, y: 0, z: 0}
+  climbPoint: {x: 0, y: 0, z: 0}
 --- !u!4 &7923776328517834316
 Transform:
   m_ObjectHideFlags: 0
