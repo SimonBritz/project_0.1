@@ -3,6 +3,7 @@ using DiasGames.ClimbingSystem.Components;
 using DiasGames.Components;
 using UnityEngine;
 
+
 namespace DiasGames.ClimbingSystem.Abilities
 {
     public abstract class ClimbAbility : Ability
