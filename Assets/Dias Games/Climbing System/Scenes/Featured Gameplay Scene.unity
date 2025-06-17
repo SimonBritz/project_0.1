@@ -1966,7 +1966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _spawnPlayerType: 0
   _spawnPoint: {fileID: 1538883675}
-  _characterControllerPlayer: {fileID: 4644305293739828992, guid: 68797c8790df0784b92ba23169b8608f, type: 3}
+  _characterControllerPlayer: {fileID: 4644305293739828992, guid: 7cdb83e39793e3b4f86646b0139dca72, type: 3}
   _rigidbodyPlayer: {fileID: 8854483505510787686, guid: 1c9d2133dfa30234e8e5d1ecc0e34876, type: 3}
   _mobilePlayer: {fileID: 4985985271420937174, guid: 10805bdf43402174d8b3f7bc3e9acd6e, type: 3}
   _fixedUpdateMainCamera: {fileID: 6347843811241614282, guid: 415bd1bbd60d8e94fb0e5612ddbcb542, type: 3}
@@ -8644,15 +8644,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7282852313522787269, guid: 1de3facf74d072246bfb3120816ec489, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 49.441
+      value: -0.042156935
       objectReference: {fileID: 0}
     - target: {fileID: 7282852313522787269, guid: 1de3facf74d072246bfb3120816ec489, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3
+      value: 1.5168629
       objectReference: {fileID: 0}
     - target: {fileID: 7282852313522787269, guid: 1de3facf74d072246bfb3120816ec489, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.266
+      value: 0.03233695
       objectReference: {fileID: 0}
     - target: {fileID: 7282852313522787269, guid: 1de3facf74d072246bfb3120816ec489, type: 3}
       propertyPath: m_LocalRotation.w
