@@ -103,6 +103,51 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "PickUpLeft",
+                    "type": "Button",
+                    "id": "e298b4a9-9b37-4301-82fc-b6d23604878e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PickUpRight",
+                    "type": "Button",
+                    "id": "3e9274ba-9a9d-4db4-92e1-d44ce64eb645",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ThrowItem",
+                    "type": "Button",
+                    "id": "ee4b9187-e2a2-43d2-835c-42dfd1522776",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PlaceItem",
+                    "type": "Button",
+                    "id": "c6d30ff6-9f67-4ee0-a3b9-ee13dc22de80",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SwitchHands",
+                    "type": "Button",
+                    "id": "1d9568a9-f0ac-4fe6-b8cf-b1d11b0554cf",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -422,6 +467,61 @@
                     "processors": "InvertVector2(invertX=false)",
                     "groups": ";Keyboard Scheme",
                     "action": "MouseLook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bcf14df7-36d3-4c19-9610-84d3c78ced94",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard Scheme",
+                    "action": "PickUpLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0145a6ee-7497-43ab-a5ce-72efc1a1f9e2",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard Scheme",
+                    "action": "PickUpRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7a4b9c75-6373-4daa-ac3c-617918260098",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard Scheme",
+                    "action": "ThrowItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "984e142f-4f03-4251-bf20-c80f2e90d361",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard Scheme",
+                    "action": "PlaceItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a97ffb0c-ffcb-4823-be58-6e5385cfaf3a",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard Scheme",
+                    "action": "SwitchHands",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
